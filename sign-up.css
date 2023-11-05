@@ -1,0 +1,202 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.container_form{
+    text-align: center;
+    width: 65%;
+    background-image: url(images/bg.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+/*Here is my label*/
+
+label{
+    margin: 50px;
+}
+
+input[type=text]{
+    width: 60%;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background: transparent;
+}
+
+input[type=text]:focus{
+   font-size: 15px;
+   outline: none;
+   color:blue ;
+}
+label{
+    font-size: 20px;
+}
+/*Here is email input*/
+input[type=email]{
+    font-size: 15px;
+    outline: none;
+    color:blue ;
+    width: 60%;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background: transparent;
+ }
+
+input[type=text]{
+    font-family: 15px;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 15px;
+    color: green;
+    text-transform: capitalize ;
+}
+
+
+/*Here is the design for tel input*/
+input[type=tel]{
+    font-size: 15px;
+    outline: none;
+    color:blue ;
+    width: 60%;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background: transparent;
+ }
+
+ input[type=password]{
+    font-size: 15px;
+    outline: none;
+    color:blue ;
+    width: 60%;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background: transparent;
+ }
+
+ /*Here is the date of birth design*/
+ input[type=date]{
+    font-size: 9px;
+    outline: none;
+    width: 60%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background: transparent;
+ }
+/*Here is the file Design*/
+input[type=file]{
+    font-size: 9px;
+    outline: none;
+    width: 60%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background: transparent;
+ }
+ 
+ /*Here is my check box design*/
+ input[type=checkbox]{
+   padding: 5px;
+ }
+
+ .check{
+    padding: 4px;
+ }
+
+ /*Here is the select button*/
+
+ select{
+    width: 50%;
+    padding: 15px;
+    border-radius: 7%;
+    font-size: 15px;
+    border: 2px solid gray;
+ }
+ .state{
+    margin: 100px;
+ }
+
+ /*Media query for Tablets  phones*/
+@media (max-width: 1004px){
+   #tarea{
+    width: 650px;
+   }
+   .container_form{
+    text-align: center;
+    width: 95%;
+    background-image: url(images/bg.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+}
+ /*Media query for Mobile phones*/
+ @media (max-width: 705px){
+    #tarea{
+     width: 500px;
+    }
+    .container_form{
+     text-align: center;
+     width: 95%;
+     background-image: url(images/bg.jpg) ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: auto;
+     background-attachment: fixed;
+ }
+ 
+ }
+ 
+ /*Media query for small phones*/
+ @media (max-width: 550px){
+    #tarea{
+     width: 310px;
+    }
+    .container_form{
+     text-align: center;
+     width: 95%;
+     background-image: url(images/bg.jpg) ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: auto;
+     background-attachment: fixed;
+ }
+ 
+ }
+  /*Media query for very small phones*/
+  @media (max-width: 364px){
+    #tarea{
+     width: 250px;
+    }
+    .container_form{
+     text-align: center;
+     width: 95%;
+     background-image: url(images/bg.jpg) ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: auto;
+     background-attachment: fixed;
+ }
+ 
+ }
+ 
+ 
+
