@@ -3,103 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Forms</title>
+    <link rel="stylesheet" href="sign-up.css">
 </head>
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Forms</title>
-        <link rel="stylesheet" href="form.css">
-    </head>
-    <body>
-        <div class="container_form">
-    <form action="" method="post">
-        <fieldset>
-            <legend>Personal Information</legend>
-        <label for="">Full Name
-    <input type="text" name="" id="" placeholder="Enter Your Name" required>
-        </label><br><br>
-    <label for="">Email
-    <input type="email" name="" id="" placeholder="Enter email" required></label><br><br>
-    <label for="">Phone number
-    <input type="tel" name="" id="" placeholder="Enter phone number" maxlength="11" required>
+    <div class="container_form">
+<form action="" method="post">
+    <fieldset>
+        <legend>Personal Information</legend>
+    <label for="">Full Name
+<input type="text" name="" id="" placeholder="Enter Your Name" required>
     </label><br><br>
-        
-    <label for="">Username
-    <input type="text" name="" id="" placeholder="Enter Username">
-    </label><br><br>
-        </fieldset>
+<label for="">Email
+<input type="email" name="" id="" placeholder="Enter email" required></label><br><br>
+<label for="">Phone number
+<input type="tel" name="" id="" placeholder="Enter phone number" maxlength="11" required>
+</label><br><br>
     
-    <label for="">Password
-    <input type="password" name="" id="" placeholder="Enter Password">
-    </label><br><br>
-    <p>Are you Obidient ?</p>
-    <label for="no"class='check'>No
-    <input type="checkbox" name="" id=""  value="no">
+<label for="">Username
+<input type="text" name="" id="" placeholder="Enter Username">
+</label><br><br>
+    </fieldset>
+
+<label for="">Password
+<input type="password" name="" id="" placeholder="Enter Password">
+</label><br><br>
+<p>Are you Obidient ?</p>
+<label for="no"class='check'>No
+<input type="checkbox" name="" id=""  value="no">
+</label>
+
+<label for="yes" class="check">Yes
+    <input type="checkbox" name="" id="" value="yes">
     </label>
+    <p>Marital Status</p>
+
+    <label for="single">Single</label>
+<input type="radio" name="" id="" value="male">
+<label for="married">Married</label>
+<input type="radio" name="" id="" value="female">
+<br>
+<label for="state of origin">State of Origin</label>
+<br>
+<select name="" id=""class="state" >
+    <br>
+    <option value="">Choose State</option>
+    <option value="">Anambra</option>
+    <option value="">Abia</option>
+    <option value="">Enugu</option>
+    <option value="">Delta</option>
+    <option value="">Rivers</option>
+    <option value="">Edo</option>
+</select>
+<br>
+<label for="Qualification"class="state" >Qualification</label>
+<br>
+<select name="" id="" multiple>
+<option value="">Qualification</option>
+    <option value="">FSLC</option>
+    <option value="">SSCE</option>
+    <option value="">OND</option>
+    <option value="">HND</option>
+    <option value="">B.Sc</option>
+    <option value="">Masters</option>
+</select>
+<br>
+<label for="date of birth">Date Of Birth</label>
+
+<input type="date" name="" id="">
+<br>
+<label for="upload passport">Upload Passport</label>
+<input type="file" name="" id="">
+<br>
+<label for="about">About You</label>
+<br>
+<textarea name="" id="tarea" cols="100" rows="20"></textarea>
+<br>
+<input type="color" name="" id="">
+<button>Register</button>
+<input type="reset" value="Reset">
     
-    <label for="yes" class="check">Yes
-        <input type="checkbox" name="" id="" value="yes">
-        </label>
-        <p>Marital Status</p>
-    
-        <label for="single">Single</label>
-    <input type="radio" name="" id="" value="male">
-    <label for="married">Married</label>
-    <input type="radio" name="" id="" value="female">
-    <br>
-    <label for="state of origin">State of Origin</label>
-    <br>
-    <select name="" id=""class="state" >
-        <br>
-        <option value="">Choose State</option>
-        <option value="">Anambra</option>
-        <option value="">Abia</option>
-        <option value="">Enugu</option>
-        <option value="">Delta</option>
-        <option value="">Rivers</option>
-        <option value="">Edo</option>
-    </select>
-    <br>
-    <label for="Qualification"class="state" >Qualification</label>
-    <br>
-    <select name="" id="" multiple>
-    <option value="">Qualification</option>
-        <option value="">FSLC</option>
-        <option value="">SSCE</option>
-        <option value="">OND</option>
-        <option value="">HND</option>
-        <option value="">B.Sc</option>
-        <option value="">Masters</option>
-    </select>
-    <br>
-    <label for="date of birth">Date Of Birth</label>
-    
-    <input type="date" name="" id="">
-    <br>
-    <label for="upload passport">Upload Passport</label>
-    <input type="file" name="" id="">
-    <br>
-    <label for="about">About You</label>
-    <br>
-    <textarea name="" id="tarea" cols="100" rows="20"></textarea>
-    <br>
-    <input type="color" name="" id="">
-    <button>Register</button>
-    <input type="reset" value="Reset">
-        
-    </form>
-    
-    
-        </div>
-       
-        <script src="tutorials.js">
-    
-        </script>
-    </body>
-    </html> 
+</form>
+
+
+    </div>
+   
+    <script src="tutorials.js">
+
+    </script>
 </body>
 </html>
